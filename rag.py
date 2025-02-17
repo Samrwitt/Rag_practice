@@ -42,7 +42,7 @@ def generate_response(query):
     )
     return response.choices[0].text.strip()
 
-# Step 6: Test our simple RAG system
+
 if __name__ == "__main__":
     query = "What is quantum computing?"
     retrieved_text = retrieve_relevant_text(query)
